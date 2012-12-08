@@ -1,6 +1,6 @@
 {
 	"name":        "kind",
-	"version":     "0.0.0",
+	"version":     "0.1.0",
 	"description": "A node.js type detection and comparison library",
 	"keywords":   ["kind", "type"],
 	"homepage":    "https://github.com/dbalcomb/kind",
@@ -20,5 +20,9 @@
 	
 	"engines": {
 		"node": ">= 0.8.0"
+	},
+	
+	"scripts": {
+		"test": "mocha -R spec"
 	}
 }
